@@ -60,8 +60,8 @@
 #ifndef BASE_ARENA_INL_H_
 #define BASE_ARENA_INL_H_
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/arena.h"
+#include "ctemplate/config.h"
+#include "ctemplate/base/arena.h"
 #include <assert.h>
 #include <stddef.h>
 #include <new>

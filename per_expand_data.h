@@ -46,7 +46,7 @@
 #include <string.h>   // for strcmp
 #include <sys/types.h>
 #include <tr1/unordered_map>
-#include "essence/ctemplate/template_string.h"   // for StringHash
+#include "ctemplate/template_string.h"   // for StringHash
 
 
 

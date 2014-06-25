@@ -44,7 +44,7 @@
 
 #include <stdlib.h>
 #include <string>
-#include "essence/ctemplate/template_string.h"
+#include "ctemplate/template_string.h"
 
 
 

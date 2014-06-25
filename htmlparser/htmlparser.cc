@@ -41,9 +41,9 @@
 #include <ctype.h>
 #include <assert.h>
 
-#include "essence/ctemplate/htmlparser/statemachine.h"
-#include "essence/ctemplate/htmlparser/htmlparser.h"
-#include "essence/ctemplate/htmlparser/jsparser.h"
+#include "ctemplate/htmlparser/statemachine.h"
+#include "ctemplate/htmlparser/htmlparser.h"
+#include "ctemplate/htmlparser/jsparser.h"
 
 /* So we can support both C and C++ compilers, we use the CAST() macro instead
  * of using C style casts or static_cast<>() directly.
@@ -59,7 +59,7 @@ namespace HTMLPARSER_NAMESPACE {
 #endif
 
 /* Generated state machine definition. */
-#include "essence/ctemplate/htmlparser/htmlparser_fsm.h"
+#include "ctemplate/htmlparser/htmlparser_fsm.h"
 
 #define is_js_attribute(attr) ((attr)[0] == 'o' && (attr)[1] == 'n')
 #define is_style_attribute(attr) (strcmp((attr), "style") == 0)

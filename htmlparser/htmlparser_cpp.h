@@ -34,11 +34,11 @@
 #ifndef SECURITY_STREAMHTMLPARSER_HTMLPARSER_CPP_H__
 #define SECURITY_STREAMHTMLPARSER_HTMLPARSER_CPP_H__
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <string>
-#include "essence/ctemplate/htmlparser/htmlparser.h"
-#include "essence/ctemplate/htmlparser/jsparser.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/htmlparser/htmlparser.h"
+#include "ctemplate/htmlparser/jsparser.h"
+#include "ctemplate/base/util.h"
 
 namespace HTMLPARSER_NAMESPACE {
 

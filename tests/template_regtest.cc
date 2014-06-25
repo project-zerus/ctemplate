@@ -64,11 +64,11 @@
 #include <algorithm>      // for sort() and stable_partition
 #include <string>
 #include <vector>
-#include "essence/ctemplate/template.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_modifiers.h"
-#include "essence/ctemplate/template_pathops.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/template.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_modifiers.h"
+#include "ctemplate/template_pathops.h"
+#include "ctemplate/base/util.h"
 
 using std::vector;
 using std::string;

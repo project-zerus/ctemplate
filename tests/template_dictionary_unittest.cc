@@ -38,12 +38,12 @@
 #include <string.h>
 #include <assert.h>
 #include <vector>
-#include "essence/ctemplate/base/arena.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_modifiers.h"
-#include "essence/ctemplate/per_expand_data.h"
+#include "ctemplate/base/arena.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_modifiers.h"
+#include "ctemplate/per_expand_data.h"
 #include "template_test_util.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/util.h"
 TEST_INIT               // defines RUN_ALL_TESTS
 
 using std::string;

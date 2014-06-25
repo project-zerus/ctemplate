@@ -29,10 +29,10 @@
 
 // ---
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/template_annotator.h"
+#include "ctemplate/config.h"
+#include "ctemplate/template_annotator.h"
 #include <string>
-#include "essence/ctemplate/template_emitter.h"
+#include "ctemplate/template_emitter.h"
 
 // Emits an open annotation string.  'name' must be a string literal.
 #define EMIT_OPEN_ANNOTATION(emitter, name, value)      \

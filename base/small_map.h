@@ -48,10 +48,10 @@
 #ifndef UTIL_GTL_SMALL_MAP_H_
 #define UTIL_GTL_SMALL_MAP_H_
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <assert.h>
 #include <utility>   // for make_pair()
-#include "essence/ctemplate/base/manual_constructor.h"
+#include "ctemplate/base/manual_constructor.h"
 _START_GOOGLE_NAMESPACE_
 
 template <bool> struct CompileAssert { };

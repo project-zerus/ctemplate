@@ -64,7 +64,7 @@
 // This is for opensource ctemplate on windows.  Even though we
 // #include config.h, just like the files used to compile the dll, we
 // are actually a *client* of the dll, so we don't get to decl anything.
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #undef CTEMPLATE_DLL_DECL
 
 #include <stdlib.h>
@@ -78,8 +78,8 @@
 #endif
 #include <string.h>
 #include <string>
-#include "essence/ctemplate/template.h"
-#include "essence/ctemplate/template_pathops.h"
+#include "ctemplate/template.h"
+#include "ctemplate/template_pathops.h"
 using std::string;
 using std::vector;
 using GOOGLE_NAMESPACE::Template;

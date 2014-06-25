@@ -44,13 +44,13 @@
 #include <string>        // for string
 #include <vector>        // for vector<>
 #include HASH_MAP_H      // UNUSED
-#include "essence/ctemplate/template.h"        // for Template::num_deletes_
-#include "essence/ctemplate/template_cache.h"  // for TemplateCache
-#include "essence/ctemplate/template_dictionary.h"  // for TemplateDictionary
-#include "essence/ctemplate/template_dictionary_interface.h"
-#include "essence/ctemplate/template_enums.h"  // for Strip
-#include "essence/ctemplate/template_namelist.h"
-#include "essence/ctemplate/template_string.h"  // for TemplateString, TemplateId
+#include "ctemplate/template.h"        // for Template::num_deletes_
+#include "ctemplate/template_cache.h"  // for TemplateCache
+#include "ctemplate/template_dictionary.h"  // for TemplateDictionary
+#include "ctemplate/template_dictionary_interface.h"
+#include "ctemplate/template_enums.h"  // for Strip
+#include "ctemplate/template_namelist.h"
+#include "ctemplate/template_string.h"  // for TemplateString, TemplateId
 
 _START_GOOGLE_NAMESPACE_
 

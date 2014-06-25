@@ -5,7 +5,7 @@ cc_library(
         'template_regtest.cc',
         'template_test_util.cc',
     ],
-    deps = ['//essence/ctemplate:ctemplate']
+    deps = ['//ctemplate:ctemplate']
 )
 
 cc_test(

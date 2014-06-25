@@ -29,7 +29,7 @@
 
 // ---
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <stdlib.h>
 #include <sys/stat.h>            // for stat()
 #include <time.h>                // for time_t
@@ -40,12 +40,12 @@
 #include HASH_SET_H              // that's NameListType
 #include <string>
 #include <vector>                // that's MissingListType, SyntaxListType
-#include "essence/ctemplate/template_namelist.h"
-#include "essence/ctemplate/template_pathops.h"
-#include "essence/ctemplate/template.h"   // for Strip, GetTemplate(), etc.
+#include "ctemplate/template_namelist.h"
+#include "ctemplate/template_pathops.h"
+#include "ctemplate/template.h"   // for Strip, GetTemplate(), etc.
 #include <assert.h>
 #include <iostream>              // for cerr
-#include "essence/ctemplate/base/fileutil.h"
+#include "ctemplate/base/fileutil.h"
 
 using std::max;
 using std::pair;

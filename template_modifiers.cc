@@ -45,16 +45,16 @@
 // the list of Safe XSS Alternatives.
 //
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <stdlib.h>
 #include <assert.h>
 #include <string.h>
 #include <string>
 #include <vector>
-#include "essence/ctemplate/htmlparser/htmlparser_cpp.h"
-#include "essence/ctemplate/template_modifiers.h"
+#include "ctemplate/htmlparser/htmlparser_cpp.h"
+#include "ctemplate/template_modifiers.h"
 #include "template_modifiers_internal.h"
-#include "essence/ctemplate/per_expand_data.h"
+#include "ctemplate/per_expand_data.h"
 using std::string;
 using std::vector;
 

@@ -32,8 +32,8 @@
 //
 // Based on the 'old' TemplateDictionary by Frank Jernigan.
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/mutex.h"         // This must go first so we get _XOPEN_SOURCE
+#include "ctemplate/config.h"
+#include "ctemplate/base/mutex.h"         // This must go first so we get _XOPEN_SOURCE
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -45,14 +45,14 @@
 #include <utility>              // for pair<>
 #include <vector>
 
-#include "essence/ctemplate/base/arena-inl.h"
-#include "essence/ctemplate/base/thread_annotations.h"
+#include "ctemplate/base/arena-inl.h"
+#include "ctemplate/base/thread_annotations.h"
 #include "indented_writer.h"
-#include "essence/ctemplate/find_ptr.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_modifiers.h"
-#include "essence/ctemplate/base/small_map.h"
-#include "essence/ctemplate/base/util.h"   // for DCHECK
+#include "ctemplate/find_ptr.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_modifiers.h"
+#include "ctemplate/base/small_map.h"
+#include "ctemplate/base/util.h"   // for DCHECK
 
 using std::vector;
 using std::string;

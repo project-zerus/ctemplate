@@ -34,11 +34,11 @@
 // to windows easier, though it's nice to have an API for this kind of
 // thing.
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <string>
 #include <ctype.h>       // for isalpha, used on windows
 #include <string.h>      // for strchr
-#include "essence/ctemplate/template_pathops.h"
+#include "ctemplate/template_pathops.h"
 
 #ifndef PATH_SEP
 # ifdef _WIN32

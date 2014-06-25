@@ -34,10 +34,10 @@
 #include <string>
 #include <vector>
 
-#include "essence/ctemplate/base/arena.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_string.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/arena.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_string.h"
+#include "ctemplate/base/util.h"
 TEST_INIT   // defines RUN_ALL_TESTS()
 
 #define ASSERT_EQ(a, b)  EXPECT_EQ(a, b)

@@ -29,9 +29,9 @@
 
 // ---
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/mutex.h"     // This must go first so we get _XOPEN_SOURCE
-#include "essence/ctemplate/template.h"
+#include "ctemplate/config.h"
+#include "ctemplate/base/mutex.h"     // This must go first so we get _XOPEN_SOURCE
+#include "ctemplate/template.h"
 
 #include <assert.h>
 #include <errno.h>
@@ -52,18 +52,18 @@
 #include <utility>          // for pair
 #include <vector>
 
-#include "essence/ctemplate/base/thread_annotations.h"
-#include "essence/ctemplate/htmlparser/htmlparser_cpp.h"
-#include "essence/ctemplate/per_expand_data.h"
-#include "essence/ctemplate/template_annotator.h"
-#include "essence/ctemplate/template_cache.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_dictionary_interface.h"   // also gets kIndent
-#include "essence/ctemplate/template_modifiers.h"
+#include "ctemplate/base/thread_annotations.h"
+#include "ctemplate/htmlparser/htmlparser_cpp.h"
+#include "ctemplate/per_expand_data.h"
+#include "ctemplate/template_annotator.h"
+#include "ctemplate/template_cache.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_dictionary_interface.h"   // also gets kIndent
+#include "ctemplate/template_modifiers.h"
 #include "template_modifiers_internal.h"
-#include "essence/ctemplate/template_pathops.h"
-#include "essence/ctemplate/template_string.h"
-#include "essence/ctemplate/base/fileutil.h"
+#include "ctemplate/template_pathops.h"
+#include "ctemplate/template_string.h"
+#include "ctemplate/base/fileutil.h"
 #include <ctype.h>
 #include <iostream>
 #include <sstream>          // for ostringstream
@@ -2286,7 +2286,7 @@ bool Template::BuildTree(const char* input_buffer,
 
 void Template::WriteHeaderEntries(string *outstring) const {
   if (state() == TS_READY) {   // only write header entries for 'good' tpls
-    outstring->append("#include \"essence/ctemplate/template_string.h\"\n");
+    outstring->append("#include \"ctemplate/template_string.h\"\n");
     tree_->WriteHeaderEntries(outstring, template_file());
   }
 }

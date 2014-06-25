@@ -38,10 +38,10 @@
 #include <string>        // for string
 #include <utility>       // for pair
 #include <vector>        // for vector<>
-#include "essence/ctemplate/template_emitter.h"  // for ExpandEmitter, etc
-#include "essence/ctemplate/template_enums.h"  // for Strip
-#include "essence/ctemplate/template_string.h"
-#include "essence/ctemplate/per_expand_data.h"
+#include "ctemplate/template_emitter.h"  // for ExpandEmitter, etc
+#include "ctemplate/template_enums.h"  // for Strip
+#include "ctemplate/template_string.h"
+#include "ctemplate/per_expand_data.h"
 namespace ctemplate {
 class FileStat;
 }

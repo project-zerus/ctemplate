@@ -31,15 +31,15 @@
 // Authors: jcrim@google.com (Jay Crim)
 //          csilvers@google.com (Craig Silverstein)
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/mutex.h"   // This has to come first to get _XOPEN_SOURCE
-#include "essence/ctemplate/template_string.h"
+#include "ctemplate/config.h"
+#include "ctemplate/base/mutex.h"   // This has to come first to get _XOPEN_SOURCE
+#include "ctemplate/template_string.h"
 #include HASH_SET_H
-#include "essence/ctemplate/base/arena.h"
-#include "essence/ctemplate/base/thread_annotations.h"
+#include "ctemplate/base/arena.h"
+#include "ctemplate/base/thread_annotations.h"
 #include <assert.h>
-#include "essence/ctemplate/base/macros.h"    // for uint32, uint64, UNALIGNED_LOAD32
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/macros.h"    // for uint32, uint64, UNALIGNED_LOAD32
+#include "ctemplate/base/util.h"
 
 #ifdef HAVE_UNORDERED_MAP
 using HASH_NAMESPACE::unordered_set;

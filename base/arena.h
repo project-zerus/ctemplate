@@ -111,7 +111,7 @@
 //    as STL containers).  arena-inl.h provides a global operator new
 //    that can be used as follows:
 //
-//    #include "essence/ctemplate/base/arena-inl.h"
+//    #include "ctemplate/base/arena-inl.h"
 //
 //      UnsafeArena arena(1000);
 //      Foo* foo = new (AllocateInArena, &arena) Foo;
@@ -270,14 +270,14 @@
 #ifndef BASE_ARENA_H_
 #define BASE_ARENA_H_
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/mutex.h"   // must go first to get _XOPEN_SOURCE
+#include "ctemplate/config.h"
+#include "ctemplate/base/mutex.h"   // must go first to get _XOPEN_SOURCE
 #include <assert.h>
 #include <string.h>
 #include <vector>
-#include "essence/ctemplate/base/thread_annotations.h"
-#include "essence/ctemplate/base/macros.h"  // for uint32
-#include "essence/ctemplate/base/util.h"    // for CHECK, etc
+#include "ctemplate/base/thread_annotations.h"
+#include "ctemplate/base/macros.h"  // for uint32
+#include "ctemplate/base/util.h"    // for CHECK, etc
 
 _START_GOOGLE_NAMESPACE_
 

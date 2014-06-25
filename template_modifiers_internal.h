@@ -45,12 +45,12 @@
 #ifndef TEMPLATE_TEMPLATE_MODIFIERS_INTERNAL_H_
 #define TEMPLATE_TEMPLATE_MODIFIERS_INTERNAL_H_
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <sys/types.h>   // for size_t
 #include <string.h>      // for strchr
 #include <string>
 #include <vector>
-#include "essence/ctemplate/template_modifiers.h"   // for null_modifier
+#include "ctemplate/template_modifiers.h"   // for null_modifier
 
 // Annoying stuff for windows -- make sure clients (in this case
 // unittests) can import the class definitions and variables.

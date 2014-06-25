@@ -32,10 +32,10 @@
 #include "config_for_unittests.h"
 #include <assert.h>
 #include <stdio.h>
-#include "essence/ctemplate/template.h"
-#include "essence/ctemplate/template_dictionary.h"
+#include "ctemplate/template.h"
+#include "ctemplate/template_dictionary.h"
 #include "template_test_util.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/util.h"
 TEST_INIT   // defines RUN_ALL_TESTS()
 
 using GOOGLE_NAMESPACE::Template;

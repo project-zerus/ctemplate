@@ -35,9 +35,9 @@
 #ifndef SECURITY_STREAMHTMLPARSER_HTMLPARSER_H
 #define SECURITY_STREAMHTMLPARSER_HTMLPARSER_H
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/htmlparser/statemachine.h"
-#include "essence/ctemplate/htmlparser/jsparser.h"
+#include "ctemplate/config.h"
+#include "ctemplate/htmlparser/statemachine.h"
+#include "ctemplate/htmlparser/jsparser.h"
 
 // Annoying stuff for windows in opensource-land -- make sure clients
 // (in this case unittests) can import the functions.

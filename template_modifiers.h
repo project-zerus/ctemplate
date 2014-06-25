@@ -65,8 +65,8 @@
 
 #include <sys/types.h>   // for size_t
 #include <string>
-#include "essence/ctemplate/template_emitter.h"   // so we can inline operator()
-#include "essence/ctemplate/per_expand_data.h"    // could probably just forward-declare
+#include "ctemplate/template_emitter.h"   // so we can inline operator()
+#include "ctemplate/per_expand_data.h"    // could probably just forward-declare
 
 
 
@@ -315,7 +315,7 @@ extern  PrefixLine prefix_line;
 // VAR1 and VAR3 would get modified by my_modifierA, VAR2 by my_modifierB,
 // and VAR4 by my_modifierC.  The order of the AddModifier calls is not
 // significant.
-extern 
+extern
 bool AddModifier(const char* long_name, const TemplateModifier* modifier);
 
 // Same as AddModifier() above except that the modifier is considered
@@ -342,7 +342,7 @@ bool AddModifier(const char* long_name, const TemplateModifier* modifier);
 //   (say HTML-escape). This may be dangerous when the modifier
 //   is used in a different context (say Javascript) where this
 //   escaping may be inadequate.
-extern 
+extern
 bool AddXssSafeModifier(const char* long_name,
                         const TemplateModifier* modifier);
 

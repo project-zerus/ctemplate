@@ -34,8 +34,8 @@
 #ifndef SECURITY_STREAMHTMLPARSER_JSPARSER_H
 #define SECURITY_STREAMHTMLPARSER_JSPARSER_H
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/htmlparser/statemachine.h"
+#include "ctemplate/config.h"
+#include "ctemplate/htmlparser/statemachine.h"
 
 #ifdef __cplusplus
 namespace HTMLPARSER_NAMESPACE {

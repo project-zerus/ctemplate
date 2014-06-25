@@ -75,9 +75,9 @@
 #include <utility>
 #include <vector>
 #include <map>
-#include "essence/ctemplate/htmlparser/htmlparser_cpp.h"
-#include "essence/ctemplate/template_pathops.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/htmlparser/htmlparser_cpp.h"
+#include "ctemplate/template_pathops.h"
+#include "ctemplate/base/util.h"
 
 #define FAIL()  EXPECT_TRUE(false)
 TEST_INIT  // Among other things, defines RUN_ALL_TESTS

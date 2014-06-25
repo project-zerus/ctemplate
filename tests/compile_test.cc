@@ -40,16 +40,16 @@
 // ), though you can fix that by changing the namespace alias below.
 
 // These are all the .h files that we export
-#include "essence/ctemplate/per_expand_data.h"
-#include "essence/ctemplate/template.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_dictionary_interface.h"
-#include "essence/ctemplate/template_emitter.h"
-#include "essence/ctemplate/template_enums.h"
-#include "essence/ctemplate/template_modifiers.h"
-#include "essence/ctemplate/template_namelist.h"
-#include "essence/ctemplate/template_pathops.h"
-#include "essence/ctemplate/template_string.h"
+#include "ctemplate/per_expand_data.h"
+#include "ctemplate/template.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_dictionary_interface.h"
+#include "ctemplate/template_emitter.h"
+#include "ctemplate/template_enums.h"
+#include "ctemplate/template_modifiers.h"
+#include "ctemplate/template_namelist.h"
+#include "ctemplate/template_pathops.h"
+#include "ctemplate/template_string.h"
 #include <stdio.h>
 #include <string>
 

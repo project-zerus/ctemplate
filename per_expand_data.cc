@@ -33,9 +33,9 @@
 // but is not conveniently defined in the header file, e.g., because it would
 // introduce new include dependencies.
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/per_expand_data.h"
-#include "essence/ctemplate/template_annotator.h"
+#include "ctemplate/config.h"
+#include "ctemplate/per_expand_data.h"
+#include "ctemplate/template_annotator.h"
 
 _START_GOOGLE_NAMESPACE_
 

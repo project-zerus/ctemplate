@@ -32,7 +32,7 @@
 //
 
 #include "config_for_unittests.h"
-#include "essence/ctemplate/template_cache.h"
+#include "ctemplate/template_cache.h"
 #include <assert.h>      // for assert()
 #include <stdio.h>       // for printf()
 #include <stdlib.h>      // for exit()
@@ -41,11 +41,11 @@
 #ifdef HAVE_UNISTD_H
 # include <unistd.h>
 #endif      // for unlink()
-#include "essence/ctemplate/template.h"  // for Template
-#include "essence/ctemplate/template_dictionary.h"  // for TemplateDictionary
-#include "essence/ctemplate/template_enums.h"  // for DO_NOT_STRIP, etc
-#include "essence/ctemplate/template_pathops.h"  // for PathJoin(), kCWD
-#include "essence/ctemplate/template_string.h"  // for TemplateString
+#include "ctemplate/template.h"  // for Template
+#include "ctemplate/template_dictionary.h"  // for TemplateDictionary
+#include "ctemplate/template_enums.h"  // for DO_NOT_STRIP, etc
+#include "ctemplate/template_pathops.h"  // for PathJoin(), kCWD
+#include "ctemplate/template_string.h"  // for TemplateString
 #include "template_test_util.h"  // for AssertExpandIs(), etc
 using std::string;
 using GOOGLE_NAMESPACE::FLAGS_test_tmpdir;

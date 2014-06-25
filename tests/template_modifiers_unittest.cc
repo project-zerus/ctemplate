@@ -39,13 +39,13 @@
 #include <assert.h>
 #include <string>
 #include <vector>
-#include "essence/ctemplate/template.h"
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_emitter.h"
-#include "essence/ctemplate/template_modifiers.h"
+#include "ctemplate/template.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_emitter.h"
+#include "ctemplate/template_modifiers.h"
 #include "../template_modifiers_internal.h"
 #include "template_test_util.h"
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/util.h"
 TEST_INIT               // defines RUN_ALL_TESTS
 
 using std::string;

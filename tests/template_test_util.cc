@@ -30,7 +30,7 @@
 // ---
 
 #include "config_for_unittests.h"
-#include "essence/ctemplate/base/mutex.h"  // must come first, for _XOPEN_SOURCE
+#include "ctemplate/base/mutex.h"  // must come first, for _XOPEN_SOURCE
 #include "template_test_util.h"
 #include <assert.h>      // for assert()
 #ifdef HAVE_DIRENT_H
@@ -60,13 +60,13 @@
 # include <unistd.h>
 #endif      // for unlink()
 #include <vector>        // for vector<>, vector<>::size_type
-#include "essence/ctemplate/template.h"  // for Template
-#include "essence/ctemplate/template_dictionary.h"  // for TemplateDictionary
-#include "essence/ctemplate/template_dictionary_interface.h"
-#include "essence/ctemplate/template_enums.h"  // for Strip
-#include "essence/ctemplate/template_namelist.h"  // for TemplateNamelist, etc
-#include "essence/ctemplate/template_pathops.h"  // for PathJoin()
-#include "essence/ctemplate/base/util.h"   // for down_cast()
+#include "ctemplate/template.h"  // for Template
+#include "ctemplate/template_dictionary.h"  // for TemplateDictionary
+#include "ctemplate/template_dictionary_interface.h"
+#include "ctemplate/template_enums.h"  // for Strip
+#include "ctemplate/template_namelist.h"  // for TemplateNamelist, etc
+#include "ctemplate/template_pathops.h"  // for PathJoin()
+#include "ctemplate/base/util.h"   // for down_cast()
 
 using std::string;
 using std::vector;

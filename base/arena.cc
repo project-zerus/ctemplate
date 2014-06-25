@@ -39,9 +39,9 @@
 // suggested by Ron van der Wal and Scott Meyers at
 //     http://www.aristeia.com/BookErrata/M27Comments_frames.html
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/arena.h"
-#include "essence/ctemplate/base/arena-inl.h"
+#include "ctemplate/config.h"
+#include "ctemplate/base/arena.h"
+#include "ctemplate/base/arena-inl.h"
 #include <assert.h>
 #include <algorithm>
 #ifdef HAVE_UNISTD_H
@@ -55,9 +55,9 @@
 #ifdef HAVE_UNISTD_H
 # include <unistd.h>
 #endif            // last place uintptr_t might be
-#include "essence/ctemplate/base/macros.h"       // for uint64
-#include "essence/ctemplate/base/mutex.h"
-#include "essence/ctemplate/base/util.h"         // for DCHECK_*
+#include "ctemplate/base/macros.h"       // for uint64
+#include "ctemplate/base/mutex.h"
+#include "ctemplate/base/util.h"         // for DCHECK_*
 
 using std::min;
 using std::vector;

@@ -38,18 +38,18 @@
 
 #include <time.h>             // for time_t
 #include <string>
-#include "essence/ctemplate/template_cache.h"
-#include "essence/ctemplate/template_enums.h"
-#include "essence/ctemplate/template_string.h"
+#include "ctemplate/template_cache.h"
+#include "ctemplate/template_enums.h"
+#include "ctemplate/template_string.h"
 
 // We include this just so folks don't have to include both template.h
 // and template_dictionary.h, or template_namelist.h etc, to use the
 // template system; we don't actually use anything in these files
 // ourselves.
 #if 1
-#include "essence/ctemplate/template_dictionary.h"
-#include "essence/ctemplate/template_namelist.h"
-#include "essence/ctemplate/per_expand_data.h"
+#include "ctemplate/template_dictionary.h"
+#include "ctemplate/template_namelist.h"
+#include "ctemplate/per_expand_data.h"
 #else
 namespace ctemplate {
 class TemplateDictionaryInterface;

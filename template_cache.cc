@@ -29,9 +29,9 @@
 
 // ---
 
-#include "essence/ctemplate/config.h"
-#include "essence/ctemplate/base/mutex.h"  // This must go first so we get _XOPEN_SOURCE
-#include "essence/ctemplate/template_cache.h"
+#include "ctemplate/config.h"
+#include "ctemplate/base/mutex.h"  // This must go first so we get _XOPEN_SOURCE
+#include "ctemplate/template_cache.h"
 #include <assert.h>      // for assert()
 #include <errno.h>
 #include <stddef.h>      // for size_t
@@ -43,12 +43,12 @@
 #include HASH_MAP_H      // for hash_map<>::iterator, hash_map<>, etc
 #include <utility>       // for pair<>, make_pair()
 #include <vector>        // for vector<>::size_type, vector<>, etc
-#include "essence/ctemplate/base/thread_annotations.h"  // for GUARDED_BY
-#include "essence/ctemplate/template.h"  // for Template, TemplateState
-#include "essence/ctemplate/template_enums.h"  // for Strip, DO_NOT_STRIP
-#include "essence/ctemplate/template_pathops.h"  // for PathJoin(), IsAbspath(), etc
-#include "essence/ctemplate/template_string.h"  // for StringHash
-#include "essence/ctemplate/base/fileutil.h"
+#include "ctemplate/base/thread_annotations.h"  // for GUARDED_BY
+#include "ctemplate/template.h"  // for Template, TemplateState
+#include "ctemplate/template_enums.h"  // for Strip, DO_NOT_STRIP
+#include "ctemplate/template_pathops.h"  // for PathJoin(), IsAbspath(), etc
+#include "ctemplate/template_string.h"  // for StringHash
+#include "ctemplate/base/fileutil.h"
 #include <iostream>      // for cerr
 
 #ifndef PATH_MAX

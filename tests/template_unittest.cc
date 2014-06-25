@@ -31,7 +31,7 @@
 // Author: csilvers@google.com (Craig Silverstein)
 
 #include "config_for_unittests.h"
-#include "essence/ctemplate/template.h"
+#include "ctemplate/template.h"
 #include <assert.h>      // for assert()
 #if defined(HAVE_PTHREAD) && !defined(NO_THREADS)
 # include <pthread.h>
@@ -47,17 +47,17 @@
 #endif      // for link(), unlink()
 #include <list>          // for list<>::size_type
 #include <vector>        // for vector<>
-#include "essence/ctemplate/per_expand_data.h"  // for PerExpandData
-#include "essence/ctemplate/template_annotator.h"  // for TextTemplateAnnotator
-#include "essence/ctemplate/template_dictionary.h"  // for TemplateDictionary
-#include "essence/ctemplate/template_emitter.h"  // for ExpandEmitter
-#include "essence/ctemplate/template_enums.h"  // for STRIP_WHITESPACE, Strip, etc
-#include "essence/ctemplate/template_modifiers.h"  // for AddModifier(), HtmlEscape, etc
-#include "essence/ctemplate/template_namelist.h"  // for TemplateNamelist, etc
-#include "essence/ctemplate/template_pathops.h"  // for PathJoin(), IsAbspath(), etc
-#include "essence/ctemplate/template_string.h"  // for TemplateString, StringHash, etc
+#include "ctemplate/per_expand_data.h"  // for PerExpandData
+#include "ctemplate/template_annotator.h"  // for TextTemplateAnnotator
+#include "ctemplate/template_dictionary.h"  // for TemplateDictionary
+#include "ctemplate/template_emitter.h"  // for ExpandEmitter
+#include "ctemplate/template_enums.h"  // for STRIP_WHITESPACE, Strip, etc
+#include "ctemplate/template_modifiers.h"  // for AddModifier(), HtmlEscape, etc
+#include "ctemplate/template_namelist.h"  // for TemplateNamelist, etc
+#include "ctemplate/template_pathops.h"  // for PathJoin(), IsAbspath(), etc
+#include "ctemplate/template_string.h"  // for TemplateString, StringHash, etc
 #include "template_test_util.h"  // for StringToTemplate(), etc
-#include "essence/ctemplate/base/util.h"
+#include "ctemplate/base/util.h"
 TEST_INIT   // defines RUN_ALL_TESTS()
 
 using std::vector;

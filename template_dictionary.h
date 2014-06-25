@@ -55,10 +55,10 @@
 #include <string>
 #include <vector>
 
-#include "essence/ctemplate/str_ref.h"
-#include "essence/ctemplate/template_dictionary_interface.h"
-#include "essence/ctemplate/template_modifiers.h"
-#include "essence/ctemplate/template_string.h"
+#include "ctemplate/str_ref.h"
+#include "ctemplate/template_dictionary_interface.h"
+#include "ctemplate/template_modifiers.h"
+#include "ctemplate/template_string.h"
 
 
 

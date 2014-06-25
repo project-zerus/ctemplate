@@ -44,7 +44,7 @@
 #ifndef UTIL_GTL_MANUAL_CONSTRUCTOR_H_
 #define UTIL_GTL_MANUAL_CONSTRUCTOR_H_
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 _START_GOOGLE_NAMESPACE_
 
 namespace util {

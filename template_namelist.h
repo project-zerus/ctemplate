@@ -43,8 +43,8 @@
 #include <tr1/unordered_set>
 #include <string>
 #include <vector>
-#include "essence/ctemplate/template_enums.h"    // for Strip
-#include "essence/ctemplate/template_string.h"   // for StringHash
+#include "ctemplate/template_enums.h"    // for Strip
+#include "ctemplate/template_string.h"   // for StringHash
 
 
 

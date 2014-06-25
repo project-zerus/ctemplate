@@ -33,7 +33,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include "essence/ctemplate/htmlparser/statemachine.h"
+#include "ctemplate/htmlparser/statemachine.h"
 
 using namespace HTMLPARSER_NAMESPACE;
 

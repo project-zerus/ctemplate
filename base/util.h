@@ -34,7 +34,7 @@
 #ifndef TEMPLATE_UTIL_H_
 #define TEMPLATE_UTIL_H_
 
-#include "essence/ctemplate/config.h"
+#include "ctemplate/config.h"
 #include <ctype.h>
 #include <errno.h>
 #include <stdlib.h>

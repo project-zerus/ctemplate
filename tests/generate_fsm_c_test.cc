@@ -35,7 +35,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "essence/ctemplate/htmlparser/statemachine.h"
+#include "ctemplate/htmlparser/statemachine.h"
 
 enum states  {
   STRINGPARSER_STATE_TEXT,
